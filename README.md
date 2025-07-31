@@ -22,6 +22,9 @@ Built with the tools and technologies:
 [https://www.mathinenglish.com/worksheetsimages/grade4/big/Rounding10MultipleP4(2).gif](https://www.mathinenglish.com/worksheetsimages/grade4/big/Rounding10MultipleP4(2).gif)
 
 ---
+##📚 Inspiration & Approach
+
+QuizWeb is inspired by modern quiz platforms like Quizizz, I aim to make the worksheet fun, interactive, and self-paced. By incorporating game-like feedback (such as confetti, score displays, and high score tracking), the app engages learners and motivates them to improve — turning practice into play.
 
 ## ✅ Features & Implementation Breakdown
 
@@ -30,8 +33,8 @@ Built with the tools and technologies:
 | 1. Use the full worksheet content | Faithfully reproduced 12 rounding-to-10 questions and copyright |
 | 2. Responsive design | Responsive layout using Flexbox, CSS Grid, media queries |
 | 3. Creative layout | Modern card design, spacing, and transitions |
-| 4. Reset button | Clears all answers and resets inputs |
-| 5. Submit button with scoring | Calculates and shows total correct answers (0–12) |
+| 4. Reset button | Clears answers and resets inputs |
+| 5. Submit button with scoring | Submit answer and add points to the score |
 | 6. Display the score | Score visible with clear feedback |
 | 7. Require name before scoring | Name is required before score is calculated |
 | 8. Deploy the app | ✅ Hosted via Netlify |
