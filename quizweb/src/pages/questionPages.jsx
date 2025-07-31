@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { database, ref, get, auth, signInAnonymously } from '../js/firebaseConfig.js';
 import QuestionCard from '../components/containers/questionCard.jsx';
-import DarkVeil from '../components/reactBits/darkVeil.jsx';
+import DarkVeil from '../components/reactBits/DarkVeil.jsx';
 import QuizSummary from './quizSummary.jsx';
 import AddName from './addName.jsx';
 import ClipLoader from "react-spinners/ClipLoader";
