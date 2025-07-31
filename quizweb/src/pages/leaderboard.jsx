@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { database, ref, get } from '../js/firebaseConfig';
-import './Leaderboard.css';
+import { database, ref, get } from '../js/firebaseConfig.js';
+import './leaderboard.css';
 
 function Leaderboard({ userName }) {
     const [highscores, setHighscores] = useState([]);

@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import Confetti from 'react-confetti';
-import Leaderboard from './leaderboard';
+import Leaderboard from './leaderboard.jsx';
 import { useWindowSize } from 'react-use';
-import './QuizSummary.css';
+import './quizSummary.css';
 
 function QuizSummary({ questions, userAnswers, userName, questionTimings }) {
   const { width, height } = useWindowSize();

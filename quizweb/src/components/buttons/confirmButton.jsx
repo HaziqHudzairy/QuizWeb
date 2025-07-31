@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import './ConfirmButton.css';
+import './confirmButton.css';
 
 const ConfirmButton = ({ text = "Confirm", onClick }) => {
   const btnRef = useRef(null);
