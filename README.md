@@ -11,7 +11,6 @@ Built with the tools and technologies:
 ![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?logo=firebase&logoColor=black)  
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black)  
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white)  
-![ESLint](https://img.shields.io/badge/-ESLint-4B32C3?logo=eslint&logoColor=white)
 
 ---
 
@@ -50,7 +49,6 @@ Built with the tools and technologies:
 | **Vite** | Fast builds, live refresh during dev |
 | **Firebase** | Real-time database, score logging, anonymous auth |
 | **CSS Modules / Custom CSS** | Styling and layout |
-| **ESLint** | Code quality and linting |
 
 ---
 
