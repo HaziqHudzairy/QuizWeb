@@ -1,0 +1,128 @@
+.ab-btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  min-width: 140px;
+  height: 44px;
+  padding: 0.5rem 1.5rem 0.5rem 2.5rem;
+  border: 1px solid #b6ccfd;
+  border-radius: 9999px;
+  background-color: #fff;
+  color: #2563eb;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1;
+  cursor: pointer;
+  overflow: hidden;
+  z-index: 1;
+  transition: color 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+}
+
+.ab-text {
+  padding-left: 0.25rem;
+}
+
+.ab-btn::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 1.5rem;
+  width: 8px;
+  height: 8px;
+  background-color: #2563eb;
+  border-radius: 9999px;
+  transform: translate(-50%, -50%) scale(1);
+  transition: transform 0.4s ease;
+  z-index: 0;
+}
+
+.ab-btn:hover::before,
+.ab-btn.active::before {
+  transform: translate(-50%, -50%) scale(100);
+}
+
+.ab-front,
+.ab-back {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  z-index: 1;
+  transition: all 0.3s ease;
+}
+
+.ab-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding-left: 2.5rem;
+  justify-content: flex-start;
+  color: white;
+  gap: 0.5rem;
+  opacity: 0;
+  transform: translateX(2rem);
+}
+
+.ab-btn:hover .ab-dot {
+  transform: scale(1.2);
+}
+
+.ab-btn:hover .ab-front,
+.ab-btn.active .ab-front {
+  transform: translateX(3rem);
+  opacity: 0;
+}
+
+.ab-btn:hover .ab-back,
+.ab-btn.active .ab-back {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.ab-btn.active .ab-back {
+  background-color: #144ac0;
+}
+
+.ab-btn.active {
+  transform: scale(1.02);
+}
+
+.ab-icon {
+  font-size: 1rem;
+}
+
+.ab-btn.correct.active .ab-back {
+  background-color: #22c55e;
+}
+
+.ab-btn.correct {
+  border-color: #22c55e;
+  color: #22c55e;
+}
+
+.ab-btn.correct::before {
+  background-color: #22c55e;
+}
+
+.ab-btn.wrong.active .ab-back {
+  background-color: #ef4444;
+}
+
+.ab-btn.wrong {
+  border-color: #ef4444;
+  color: #ef4444;
+}
+
+.ab-btn.wrong::before {
+  background-color: #ef4444;
+}
+
+.ab-btn:disabled {
+  cursor: not-allowed;
+}
+
+

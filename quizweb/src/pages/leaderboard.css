@@ -1,0 +1,109 @@
+.leaderboard {
+    margin-top: 2rem;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.leaderboard h3 {
+    margin-bottom: 1rem;
+    color: #06768D;
+    text-align: center;
+}
+
+.leaderboard-table-container {
+    max-height: 400px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.leaderboard table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 400px;
+}
+
+.highlight-row {
+    background-color: #d4f4ee !important;
+    font-weight: bold;
+    color: #06768D;
+}
+
+
+.leaderboard th,
+.leaderboard td {
+    padding: 8px 12px;
+    text-align: center;
+    font-size: 0.95rem;
+    white-space: nowrap;
+}
+
+.leaderboard tr:nth-child(even) {
+    background-color: #eef2f3;
+}
+
+@media (max-width: 600px) {
+
+    .leaderboard th,
+    .leaderboard td {
+        font-size: 0.85rem;
+        padding: 6px 8px;
+    }
+
+    .leaderboard h3 {
+        font-size: 1.1rem;
+    }
+}
+
+.rank {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    font-weight: bold;
+}
+
+.rank-number {
+    font-size: 1rem;
+}
+
+.rank-0 .rank-number {
+    color: #FFD700;
+}
+
+.rank-1 .rank-number {
+    color: #C0C0C0;
+}
+
+.rank-2 .rank-number {
+    color: #CD7F32;
+}
+
+.leaderboard-table-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.leaderboard-table-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.leaderboard-table-container::-webkit-scrollbar-thumb {
+    background: #06768D;
+    border-radius: 10px;
+    transition: background 0.3s ease;
+}
+
+.leaderboard-table-container::-webkit-scrollbar-thumb:hover {
+    background: #055b6f;
+}
+
+@supports (scrollbar-color: auto) {
+    .leaderboard-table-container {
+        scrollbar-width: thin;
+        scrollbar-color: #06768D #f1f1f1;
+    }
+}

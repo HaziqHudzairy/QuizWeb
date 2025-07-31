@@ -1,0 +1,70 @@
+.add-name-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.add-name-card {
+  background: white;
+  border-radius: 1.5rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  max-width: 400px;
+  width: 90%;
+  text-align: center;
+  position: relative;
+}
+
+.name-illustration {
+  width: 150px;
+  margin: 0 auto 1.5rem;
+  display: block;
+}
+
+.name-title {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  color: #06768D;
+}
+
+.name-subtitle {
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.name-input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 0.75rem;
+  margin-bottom: 1rem;
+  transition: border 0.3s ease;
+  box-sizing: border-box;
+  background-color: #f0f0f0;
+  caret-color: #06768D;
+  color: #333333;
+}
+
+.name-input:focus {
+  border-color: #06768D;
+  outline: none;
+}
+
+.start-button {
+  background-color: #06768D;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 0.75rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.start-button:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  background-color: #055a6c;
+}
