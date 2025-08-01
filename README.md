@@ -80,7 +80,7 @@ npm run dev
 
 ## 🌐 Live Demo
 
-> 🔗 [Live App](https://your-netlify-or-vercel-link.com)
+> 🔗 [Live App](https://hudzairyquizweb.netlify.app/)
 
 ---
 
